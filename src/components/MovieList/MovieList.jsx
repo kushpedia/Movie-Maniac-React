@@ -29,7 +29,7 @@ const MovieList = ({type,title,emoji}) => {
 
 
 	const fetchMovies = async() =>{
-		const response = await fetch(`https://api.themoviedb.org/3/movie/${type}?api_key=ff6552b3b190a00faa2c2a1991ee9557#`);
+		const response = await fetch(`https://api.themoviedb.org/3/movie/${type}?api_key=ff6552b3b190a00faa2c2a1991ee9557`);
 		const data = await response.json();
 		setMovies(data.results)
 		setFilterMovies(data.results)

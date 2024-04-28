@@ -12,7 +12,7 @@ const App = () => {
     <Navbar/>
       <MovieList type="popular" title="Popular" emoji={Fire} />
       <MovieList type="top_rated" title="Toprated" emoji={Star} />
-      <MovieList type="New/Upcoming" title="New/Upcoming" emoji={Party} />
+      <MovieList type="upcoming" title="upcoming" emoji={Party} />
     </div>
   )
 }
